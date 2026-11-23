@@ -1,0 +1,47 @@
+h1{
+    color:maroon;
+    background: aquamarine;
+}
+.navbar{
+    border-width: 2px;
+    border-color: rgb(59, 56, 52);
+    border-style:solid;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+}
+.navbar a{
+    padding:5px;
+    color: rgb(110, 227, 110);
+    text-decoration: none;   /*to remove the underline below the hyperlink*/
+}
+
+.navbar a:hover{
+    color:rgb(19, 59, 81);
+}
+
+body{
+    margin: 0px;     /*by def body has 8px border*/
+    background-color: antiquewhite;
+}
+.card{
+    border:2px solid gray;
+    width:300px;
+    text-align: center;
+    margin-top:80px;
+    margin-left: auto;  /*takes as much space poss on left*/
+    margin-right: auto;
+    background-color: white;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+}
+
+.card button{
+    width:70%;
+    padding:3px;
+    margin-bottom: 20px;
+    cursor: pointer;  /*to make the cursor as the hand pointer*/
+}
